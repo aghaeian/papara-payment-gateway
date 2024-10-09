@@ -19,3 +19,5 @@ composer dump-autoload
 Run these commands below to complete the setup
 
 php artisan optimize
+
+php artisan optimize:clear

@@ -23,13 +23,13 @@
         {
             "name": "Hamed AGHAEIAN CHELGHAEI",
             "email": "aghaieyan@gmail.com",
-            "homepage": "https://github.com/aghaeian",
+            "homepage": "https://github.com/memnunal/papara-payment-gateway",
             "role": "Developer"
         }
     ],
     "support": {
-        "source": "https://github.com/codenteq/papara-payment-gateway",
-        "issues": "https://github.com/codenteq/papara-payment-gateway/issues",
+        "source": "https://github.com/memnunal/papara-payment-gateway",
+        "issues": "https://github.com/memnunal/papara-payment-gateway/issues",
         "email": "aghaieyan@gmail.com"
     },
     "require": {
@@ -38,7 +38,7 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/aghaeian"
+            "url": "https://github.com/memnunal/papara-payment-gateway"
         }
     ],
     "autoload": {

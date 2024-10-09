@@ -3,8 +3,8 @@
 return [
     [
         'key'    => 'sales.payment_methods.papara',
-        'info'   => 'iyzico::app.papara.info',
-        'name'   => 'iyzico::app.papara.name',
+        'info'   => 'papara::app.papara.info',
+        'name'   => 'papara::app.papara.name',
         'sort'   => 0,
         'fields' => [
             [

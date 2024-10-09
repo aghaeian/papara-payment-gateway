@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'name'    => 'Codenteq Papara Payment',
+    'name'    => 'Laravel Papara Payment',
     'version' => core()->version(),
 ];

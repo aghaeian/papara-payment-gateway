@@ -9,13 +9,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Aghaeian\\PaparaPaymentGateway\\": "src/"
+            "Webkul\\Papara\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Papara\\Providers\\PaparaServiceProvider"
+            ],
+            "aliases": {}
         }
     },
     "authors": [
         {
             "name": "Aghaeian",
-            "email": "your-email@example.com"
+            "email": "aghaieyan@gmail.com"
         }
     ],
     "minimum-stability": "stable",

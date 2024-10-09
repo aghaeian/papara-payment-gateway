@@ -19,12 +19,6 @@
             "email": "aghaieyan@gmail.com",
             "homepage": "https://github.com/aghaeian",
             "role": "Developer"
-        },
-        {
-            "name": "Hamed AGHAEIAN CHELGHAEI",
-            "email": "aghaieyan@gmail.com",
-            "homepage": "https://github.com/memnunal/papara-payment-gateway",
-            "role": "Developer"
         }
     ],
     "support": {
@@ -36,6 +30,15 @@
         {
             "type": "github",
             "url": "https://github.com/memnunal/papara-payment-gateway"
+        }
+    ],
+    "require": {
+        "papara/papara-php": "^2.0" // Adjust the version as necessary
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aghaeian/papara-payment-gateway.git" // Your GitHub repository
         }
     ],
     "autoload": {

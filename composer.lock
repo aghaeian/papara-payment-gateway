@@ -7,13 +7,6 @@
     "content-hash": "8ce92f0d4b206d741dcebad59d95c935",
     "packages": [
         {
-            "name": "papara/papara-php",
-            "version": "v2.0.54",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/papara/papara-php.git",
-                "reference": "4a5874a63582e92338662782887da757de62c646"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/papara/papara-php/zipball/4a5874a63582e92338662782887da757de62c646",

@@ -27,6 +27,9 @@
         "issues": "https://github.com/aghaeian/papara-payment-gateway/issues",
         "email": "aghaieyan@gmail.com"
     }
+    "require": {
+     
+    },
     "repositories": [
         {
             "type": "vcs",

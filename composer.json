@@ -1,4 +1,4 @@
-unal{
+{
     "name": "memnunal/papara-payment-gateway",
     "type": "package",
     "description": "The Laravel eCommerce Papara Payment Gateway",

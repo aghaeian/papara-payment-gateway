@@ -32,10 +32,6 @@
         "issues": "https://github.com/memnunal/papara-payment-gateway/issues",
         "email": "aghaieyan@gmail.com"
     },
-    "require": {
-        "memnunal/papara-payment-gateway": "*",
-        "papara/papara-php": "^1.0"
-    },
     "funding": [
         {
             "type": "github",

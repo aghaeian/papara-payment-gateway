@@ -33,7 +33,8 @@
         "email": "aghaieyan@gmail.com"
     },
     "require": {
-        "papara/papara-php": "^1.0.0"
+        "memnunal/papara-payment-gateway": "*",
+        "papara/papara-php": "^1.0"
     },
     "funding": [
         {

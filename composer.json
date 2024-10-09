@@ -1,53 +1,23 @@
 {
-    "name": "memnunal/papara-payment-gateway",
+    "name": "aghaeian/papara-payment-gateway",
+    "description": "A Papara payment gateway integration.",
     "type": "library",
-    "description": "The Laravel eCommerce Papara Payment Gateway",
-    "keywords": [
-        "memnunal",
-        "bagisto",
-        "payment",
-        "ecommerce",
-        "papara",
-        "opensource"
-    ],
-    "license": "MIT",
-    "homepage": "https://memnunal.com",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "authors": [
-        {
-            "name": "Hamed AGHAEIAN CHELGHAEI",
-            "email": "aghaieyan@gmail.com",
-            "homepage": "https://github.com/aghaeian",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "source": "https://github.com/aghaeian/papara-payment-gateway",
-        "issues": "https://github.com/aghaeian/papara-payment-gateway/issues",
-        "email": "aghaieyan@gmail.com"
-    }
     "require": {
-        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2",
-        "laravel/framework": "^8.0 || ^9.0 || ^10.0",
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^10.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/aghaeian/papara-payment-gateway.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "Webkul\\Papara\\": "src"
+            "Aghaeian\\PaparaPaymentGateway\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Webkul\\Papara\\Providers\\PaparaServiceProvider"
-            ],
-            "aliases": {}
+    "authors": [
+        {
+            "name": "Aghaeian",
+            "email": "your-email@example.com"
         }
-    }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
 }

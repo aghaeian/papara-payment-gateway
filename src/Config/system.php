@@ -3,7 +3,7 @@
 return [
     [
         'key'    => 'sales.payment_methods.papara',
-        'info'   => 'papara::app.papara.info',
+        'info'   => 'admin::app.configuration.index.sales.payment-methods.info',
         'name'   => 'papara::app.papara.name',
         'sort'   => 0,
         'fields' => [

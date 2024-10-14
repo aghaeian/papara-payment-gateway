@@ -9,7 +9,7 @@ return [
         'fields' => [
             [
                 'name'          => 'title',
-                'title'         => 'papara::app.papara.system.title',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.title',
                 'type'          => 'text',
                 'depend'        => 'active:1',
                 'validation'    => 'required_if:active,1',
@@ -17,20 +17,20 @@ return [
                 'locale_based'  => true,
             ], [
                 'name'          => 'description',
-                'title'         => 'papara::app.papara.system.description',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.description',
                 'type'          => 'textarea',
                 'channel_based' => false,
                 'locale_based'  => true,
             ], [
                 'name'          => 'image',
-                'title'         => 'papara::app.papara.system.image',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.image',
                 'info'          => 'admin::app.configuration.index.sales.payment-methods.logo-information',
                 'type'          => 'file',
                 'channel_based' => false,
                 'locale_based'  => true,
             ], [
                 'name'          => 'active',
-                'title'         => 'papara::app.papara.system.status',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
                 'type'          => 'boolean',
                 'channel_based' => false,
                 'locale_based'  => true,
